@@ -125,6 +125,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         } else {
             g.drawString("Score: " + String.valueOf(snakeBody2.size()), tileSize + 520, tileSize);
         }
+        
     }
 
     public void placeFood(){
